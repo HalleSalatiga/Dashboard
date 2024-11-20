@@ -8,5 +8,24 @@
 }
 
 :root{
-    --blue:var(--blue)
+    --blue: #2626ff;
+    --white: #ffff;
+    --gray: #808080;
+    --black: #262626;
+}
+
+body{
+    min-height: 100vh;
+    overflow: hidden;
+
+}
+
+.conatainer{
+    position: relative;
+    width: 100%;
+
+}
+
+.navigation{
+    position: fixed;
 }
